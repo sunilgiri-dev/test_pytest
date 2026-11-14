@@ -1,0 +1,35 @@
+# Selenium Pytest Framework
+
+This is an automation testing framework developed using:
+
+- Selenium WebDriver
+- Pytest
+- Python
+
+## Project Structure
+
+- tests → Test cases
+- pages → Page Object Model files
+- utils → Utility files
+- reports → HTML reports
+- screenshots → Failure screenshots
+- test_data → Test data files
+
+## Website Used
+
+https://www.saucedemo.com/
+
+## Features
+
+- Page Object Model (POM)
+- Pytest Fixtures
+- HTML Reports
+- Reusable Code Structure
+
+## Run Tests
+
+pytest
+
+## Generate Report
+
+pytest --html=reports/report.html
